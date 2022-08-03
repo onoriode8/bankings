@@ -1,0 +1,25 @@
+.userAccount {
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+@media(max-width: 540px) {
+    .userAccount {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .userContainer {
+        padding: 10px 2px;
+        margin: 10px 2px;
+    }
+}
+
+.userContainer {
+    padding: 10px 4.5em;
+    margin: 10px 2px;
+    background-color: rgb(85, 85, 207);
+    border-radius: 1.5em;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 2px 7px 13px 3px rgba(0, 0, 0, 0.5);
+}

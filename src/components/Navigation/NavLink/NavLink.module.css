@@ -1,0 +1,172 @@
+.Navlink {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    text-decoration: none;
+    background-color: #fff;
+    box-shadow: 1px 2px 3px 4px #1134;
+    padding: 16px 0px;
+    margin-top: 0;
+    position: relative;
+}
+
+.icon {
+    display: flex;
+}
+
+@media(max-width: 541px) {
+    .Navlink {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .icon {
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+
+@media(min-width: 542px) {
+    .menu {
+        display: none;
+    }
+}
+
+.login {
+    text-decoration: none; 
+    color: blue;
+}
+
+.container {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 300;
+}
+
+.account {
+    display: block;
+    text-decoration: none;
+    z-index: 350;
+    /* color: #fff; */
+}
+
+.account:hover {
+    border: 1px solid blue;
+}
+
+.accounts {
+    position: fixed;
+    padding: 25px 10px;
+    background-color: #ccc;
+    width: 25vh;
+    height: 8vh;
+}
+
+.investment {
+    display: block;
+    text-decoration: none;
+    z-index: 350;
+    color: blue;
+}
+
+.invest {
+    position: fixed;
+    padding: 20px 10px;
+    background-color: #ccc;
+    width: 25vh;
+    height: 8vh;
+}
+
+.card {
+    display: block;
+    text-decoration: none;
+    /* color: #fff; */
+}
+
+.cards {
+    position: fixed;
+    padding: 20px 10px;
+    background-color: #ccc;
+    width: 25vh;
+    height: 8vh;
+    z-index: 350;
+}
+
+.loan {
+    display: block;
+    text-decoration: none;
+    /* color: #fff; */
+}
+
+.loans {
+    position: fixed;
+    padding: 20px 10px;
+    background-color: #ccc;
+    width: 25vh;
+    height: 8vh;
+    z-index: 350;
+}
+
+.insurance {
+    display: block;
+    text-decoration: none;
+    color: blue;
+}
+
+.financial {
+    display: block;
+    text-decoration: none;
+    color: blue;
+}
+
+.settings {
+    text-decoration: none;
+    color: blue;
+}
+
+.setting {
+    position: fixed;
+    padding: 20px 10px;
+    background-color: #ccc;
+    width: 25vh;
+    height: 8vh;
+    z-index: 350;
+}
+
+.logout {
+    text-decoration: none;
+    color: blue;
+}
+
+.Cards {
+    color: blue;
+    display: flex;
+}
+
+.invests {
+    color: blue;
+    display: flex;
+}
+
+.Loans {
+    color: blue;
+    display: flex;
+}
+
+.set {
+    color: blue;
+    display: flex;
+}
+
+@media(max-width: 541px) {
+   .list,
+   .account,
+   .invests,
+   .Cards,
+   .Loans,
+   .insurance,
+   .financial,
+   .set {
+        display: none;
+   }
+}

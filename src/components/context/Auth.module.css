@@ -1,0 +1,48 @@
+.Button {
+    width: 40%;
+    padding: 10px 0px;
+    background-color: blue;
+    color: #fff;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 100;
+    position: fixed;
+    top: 0;
+}
+
+@media(max-width: 541px) {
+    .header {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.auth {
+    position: fixed;
+    z-index: 200;
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 35%;
+    margin-right: 35%;
+    padding: 30px 20px;
+    border: 1px solid #fff;
+    box-shadow: 1px 2px 3px 4px #1134;
+    background: #fff;
+}
+
+@media(max-width: 540px) {
+    .Button {
+        width: 50%;
+        padding: 10px 0px;
+        background-color: blue;
+        color: #fff;
+    }
+    .auth {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+}

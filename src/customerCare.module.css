@@ -1,0 +1,49 @@
+.customerServiceImage {
+    width: 600px;
+}
+
+.bankImage {
+    width: 93.5em;
+    height: 350px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 2em;
+}
+
+.contain {
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.bord {
+    margin: 16px 14px;
+    padding: 20px 20px;
+    border: 1px solid grey;
+    box-shadow: 1px 2px 3px 4px #1134;
+    background-color: #fff;
+}
+
+@media(max-width: 541px) {
+    .contain {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+@media(max-width: 541px) {
+    .customerServiceImage {
+        width: 280px;
+    } 
+    .bankImage {
+        width: 20em;
+        height: 350px;
+    }
+    .container {
+        display: block;
+        text-align: center;
+    }
+}
